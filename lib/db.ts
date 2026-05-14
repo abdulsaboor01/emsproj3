@@ -15,3 +15,5 @@ export async function connectDB() {
   ;(global as any).mongoose = cached
   return cached.conn
 }
+
+// test
